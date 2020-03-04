@@ -1,4 +1,5 @@
 name: Auto Api
+
 on: 
   release:
     types: [published]
@@ -11,6 +12,7 @@ on:
     - cron: 0 8 * * *
  # watch:
  #   types: [started]
+   
 jobs:
   build:
     runs-on: ubuntu-18.04
