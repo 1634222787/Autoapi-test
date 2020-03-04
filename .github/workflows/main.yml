@@ -1,0 +1,30 @@
+name: Auto Api
+on: 
+  release:
+    types: [published]
+  push:
+    tags:
+    - 'v*'
+  #  branches: 
+  #    - master
+  schedule:
+    - cron: 0 8 * * *
+ # watch:
+ #   types: [started]
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - uses: actions/setup-python # 安装python
+      with:
+        python-version: '3.x'
+        architecture: 'x64'
+    - name: Clone source code
+      run: |
+        git clone --depth=1 https://github.com/wangziyingwen/Autoapi.git /Autoapi	
+    - name: Test Api 
+      run: |
+        cd /Autoapi
+        python 1.py
