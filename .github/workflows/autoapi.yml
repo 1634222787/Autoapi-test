@@ -22,15 +22,16 @@ jobs:
         python-version: [3.5, 3.6, 3.7, 3.8]
     
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@master
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/wangziyingwen/Autoapi.git /Autoapi	
+        git clone --depth=1 https://github.com/wangziyingwen/Autoapi.git /opt/Autoapi	
     - name: Test Api 
       run: |
-        cd /Autoapi
+        cd /opt/Autoapi
         python 1.py
