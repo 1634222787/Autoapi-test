@@ -17,17 +17,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.5, 3.6, 3.7, 3.8]
     
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up Python
       uses: actions/setup-python@v1
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: 3.7
     - name: Clone source code
       run: |
         git clone --depth=1 https://github.com/wangziyingwen/Autoapi.git /opt/Autoapi	
