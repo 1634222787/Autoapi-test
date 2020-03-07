@@ -1,4 +1,4 @@
-#自动运行
+#自动运行调用api,保持活跃
 name: Auto Api
 
 on:
