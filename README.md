@@ -6,22 +6,22 @@
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
 
 ### 步骤 ###
-1，新建一个repository/项目
+* 新建一个repository/项目
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/新建仓库.png)
 
-2，下载上面的1.py , 根据原文教程修改1.py、1.txt ，上传并复制代码地址
+* 下载上面的1.py , 根据原文教程修改1.py、1.txt ，上传并复制代码地址
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/代码地址.png)
   
-3，点击右上角fork我的代码到自己仓库，
+* 点击右上角fork我的代码到自己仓库，
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/fork.png)
   
-  然后修改文件 .github\workflows\autoaapi.yml 中的代码地址为自己的地址
+  然后修改文件 .github\workflows\autoapi.yml 中的代码地址为自己的地址
   
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/修改地方.png)
   
-4，搞定，我设定的是一天两次，每次调用3轮（点击右上角星星也可以立马调用一次），你们可以自己修改：
+* 搞定，我设定的是一天两次，每次调用3轮（点击右上角星星也可以立马调用一次），你们可以自己修改：
 
    定时修改
    
