@@ -1,10 +1,18 @@
-#自动运行调用api,保持活跃
+#自动调用api保活
 name: Auto Api
 
-on:
+on: 
+  release:
+    types: [published]
   push:
-    branches:
-      - master
+    tags:
+    - 'v*'
+  #  branches: 
+  #    - master
+  schedule:
+    - cron: 0 */12 * * *
+  watch:
+    types: [started]
    
 jobs:
   build:
