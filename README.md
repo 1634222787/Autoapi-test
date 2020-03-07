@@ -14,11 +14,11 @@
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/代码地址.png)
   
-* 点击右上角fork本项目的代码到到自己仓库（相当于新建repository并复制本项目代码），
+* 点击右上角fork本项目的代码到到你自己的仓库（相当于新建repository并复制本项目代码），
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/fork.png)
   
-  然后修改文件 .github\workflows\autoapi.yml 中的代码地址为自己的地址
+  然后修改文件 .github\workflows\autoapi.yml 中的代码地址为你自己的地址
   
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/修改地方.png)
   
