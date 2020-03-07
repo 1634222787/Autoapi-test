@@ -1,18 +1,10 @@
 #自动运行
 name: Auto Api
 
-on: 
-  release:
-    types: [published]
+on:
   push:
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
-  schedule:
-    - cron: 0 */12 * * *
- # watch:
- #   types: [started]
+    branches:
+      - master
    
 jobs:
   build:
@@ -25,6 +17,9 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
+    - name: Install requests
+      run: |
+        pip install requests
     - name: Clone source code
       run: |
         git clone --depth=1 https://github.com/wangziyingwen/Autoapi.git /opt/Autoapi	
