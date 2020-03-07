@@ -4,6 +4,7 @@
 
 ### 特别说明/Thanks ###
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
+* 本项目地址：https://github.com/wangziyingwen/Autoapi-test
 
 ### 步骤 ###
 * 新建一个repository/项目
