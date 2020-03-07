@@ -13,7 +13,7 @@
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/代码地址.png)
   
-* 点击右上角fork我的代码到自己仓库，
+* 点击右上角fork本项目的代码到到自己仓库（相当于新建repository并复制本项目代码），
 
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/fork.png)
   
