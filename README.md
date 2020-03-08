@@ -7,7 +7,7 @@
 * 本项目地址：https://github.com/wangziyingwen/Autoapi-test
 
 ### 步骤 ###
-* 新建一个repository/项目
+* 登录/注册一个github账号，新建一个repository/项目
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/新建仓库.png)
 
 * 下载本项目文件里的1.py , 根据原文教程修改1.py、1.txt ，上传并复制代码地址
