@@ -35,10 +35,20 @@
    点击上面的Action就能看到每次的运行日志
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/Action.png)
-   
 
-## 最后 ##
-  教程很直白了，应该都会弄吧。明天更新一下怎样网页获取refresh_token（不再需要rclone？）！所以不用电脑应该可以都搞定！
+### Cithub Action 介绍 ###
+· 2-core CPU
+· 7 GB RAM 内存
+· 14 GB SSD 硬盘空间
+使用限制：
+* 每个仓库只能同时支持20个 workflow 并行。
+* 每小时可以调用1000次 GitHub API 。
+* 每个 job 最多可以执行6个小时。
+* 免费版的用户最大支持20个 job 并发执行，macOS 最大只支持5个。
+* 私有仓库每月累计使用时间为2000分钟，超过后$ 0.008/分钟，公共仓库则无限制。
+
+### 最后 ###
+  教程很直白了，应该都会弄吧。有空更新一下怎样网页获取refresh_token（不再需要rclone？）！所以不用电脑应该可以都搞定！
 
   我是代码小白，我实在不会把两个项目合并啊，只能分开弄两个项目，一个原代码，一个action流程，请各位多多包涵。有没有大佬能修改一下代码呀，十分欢迎！
   
