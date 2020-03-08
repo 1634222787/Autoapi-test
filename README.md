@@ -36,7 +36,7 @@
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/Action.png)
 
-### Cithub Action 介绍 ###
+### GithubAction介绍 ###
 · 2-core CPU
 · 7 GB RAM 内存
 · 14 GB SSD 硬盘空间
