@@ -34,7 +34,7 @@
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/次数.png)
    
-   · 点击上面的Action就能看到每次的运行日志
+   · 点击上面的Action就能看到每次的运行日志（都看下，api有没有调用到位，我就少了一个3，不管了）
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/日志.png)
 
