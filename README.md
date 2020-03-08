@@ -26,15 +26,15 @@
   
 * 搞定，接下来就不用管了。我设定的每12小时自动运行一次，每次调用3轮（点击右上角星星/star也可以立马调用一次），你们自行斟酌修改（我也不知道活跃要调用多少、多久）：
 
-   ·定时自动启动修改地方：（在autoapi.yml里，自行百度cron定时任务格式）
+   · 定时自动启动修改地方：（在autoapi.yml里，自行百度cron定时任务格式）
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/定时.png)
    
-   ·每次轮数修改地方：（在1.py最后面）
+   · 每次轮数修改地方：（在1.py最后面）
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/次数.png)
    
-   ·点击上面的Action就能看到每次的运行日志
+   · 点击上面的Action就能看到每次的运行日志
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/日志.png)
 
