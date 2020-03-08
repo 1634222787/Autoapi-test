@@ -40,6 +40,7 @@
 · 2-core CPU
 · 7 GB RAM 内存
 · 14 GB SSD 硬盘空间
+
 使用限制：
 * 每个仓库只能同时支持20个 workflow 并行。
 * 每小时可以调用1000次 GitHub API 。
