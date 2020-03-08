@@ -6,6 +6,8 @@
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
 * 本项目地址：https://github.com/wangziyingwen/Autoapi-test
 
+--------------------------------------------------------------
+
 ### 步骤 ###
 * 登录/注册一个github账号，新建一个repository/项目
   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/新建仓库.png)
@@ -35,6 +37,8 @@
    点击上面的Action就能看到每次的运行日志
    
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/Action.png)
+
+------------------------------------------------------------
 
 ### GithubAction介绍 ###
 · 2-core CPU
