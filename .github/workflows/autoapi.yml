@@ -30,7 +30,7 @@ jobs:
         pip install requests
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/1634222787/E5apit.git
+        git clone --depth=1 https://github.com/1634222787/Autoapi-test.git
     - name: Test Api 
       run: |
         cd /opt/Autoapi
