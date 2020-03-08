@@ -36,7 +36,6 @@
    
    点击上面的Action就能看到每次的运行日志
    
-   ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/Action.png)
    ![image](https://github.com/wangziyingwen/Autoapi-test/blob/master/images/日志.png)
 
 ------------------------------------------------------------
