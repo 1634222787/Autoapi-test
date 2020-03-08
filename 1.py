@@ -82,6 +82,6 @@ def main():
         pass
 while True:
     main()
-    for i in range(import random random.randint(150,300),0,-1):
+    for i in range(import random.randint(150,300),0,-1):
         print("\r"+str(i)+'秒后开始下一轮调用         ', end='')
         time.sleep(1)
