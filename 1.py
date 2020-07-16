@@ -11,7 +11,7 @@ import json,sys,time
 #在下方单引号内填入应用id                                         #
 id=r'768d53d3-16e5-42e3-864c-1392a63d3b89'                         
 #在下方单引号内填入应用秘钥                                       #
-secret=r'v6Xik0N[P/tXtOCHiXW@B:234mWXV0?d'                                           
+secret=r'1.gFMRf_jYNbY56Y2LB_99euUJFn2__R.z'                                           
 ###################################################################
 
 path=sys.path[0]+r'/1.txt'
@@ -80,5 +80,5 @@ def main():
     except:
         print("pass")
         pass
-for _ in range(50):
+for _ in range(25):
     main()
